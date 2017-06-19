@@ -31,7 +31,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - github-pages
 
 # Exclude list
-include: [_pages]
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, Rakefile, .sass-cache, .DS_Store]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, .sass-cache, .DS_Store]
