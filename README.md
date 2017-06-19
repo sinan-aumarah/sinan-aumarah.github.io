@@ -1,4 +1,4 @@
-## How to?
+## How to assemble and run ?
 run jekyll serve --watch
 
 
