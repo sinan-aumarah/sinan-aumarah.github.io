@@ -1,0 +1,64 @@
+<section id="resume" class="grey-section">
+
+    <div class="row section-intro">
+        <div class="col-twelve">
+            <h5>Resume</h5>
+        </div>
+    </div>
+
+    <div class="row resume-timeline">
+
+        <div class="col-twelve resume-header">
+            <h2>Work Experience</h2>
+        </div>
+
+        <div class="col-twelve">
+            <div class="timeline-wrap">
+                {% for job in site.data.work-experience %}
+                <div class="timeline-block">
+
+                    <div class="timeline-ico">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+
+                    <div class="timeline-header">
+                        <h3>{{ job.company }}</h3>
+                        <p>{{ job.timeline }}</p>
+                    </div>
+
+                    <div class="timeline-content">
+                        <h4>{{ job.title }}</h4>
+                        <p>{{ job.description }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="row resume-timeline">
+
+        <div class="col-twelve resume-header">
+            <h2>Education</h2>
+        </div>
+
+        <div class="col-twelve">
+            <div class="timeline-wrap">
+                {% for edu in site.data.education %}
+                <div class="timeline-block">
+                    <div class="timeline-ico">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-header">
+                        <h3>{{ edu.school }}</h3>
+                        <p>{{ edu.timeline }}</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>{{ edu.degree }}</h4>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+</section>
