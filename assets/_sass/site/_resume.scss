@@ -367,7 +367,7 @@
   line-height: 2.4rem;
 }
 .skill-bars li .progress {
-  background: #d65300;
+  background: $skill-bar-color;
   position: relative;
   height: 100%;
 }
@@ -380,7 +380,7 @@
   color: white;
   font-size: 1.1rem;
   line-height: 1;
-  background: #d65300;
+  background: $skill-bar-color;
   padding: .6rem .6rem;
   border-radius: 3px;
 }
@@ -391,7 +391,7 @@
   margin-left: -5px;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
-  border-top: 5px solid #313131;
+  border-top: 5px solid $skill-bar-color;
   content: "";
 }
 
