@@ -15,7 +15,7 @@
     // Typed info description in the intro section
     document.addEventListener('DOMContentLoaded', function () {
         Typed.new('#typed-info', {
-            strings: ["Who am I?", "I'm a software developer", "I'm an innovator", "A traveller", "A Photographer", "I believe in quality code"],
+            strings: ["Who am I?", "I'm a software developer", "I'm an innovator", "A traveller", "A Photographer"],
             typeSpeed: 50,
             startDelay: 1000,
             loop: true
