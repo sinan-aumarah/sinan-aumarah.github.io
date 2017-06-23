@@ -24,7 +24,7 @@
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
-  margin: 0.1rem 9px 0 0;
+  margin: -2.9rem 22px -2px 2.9rem;
   float: left;
 }
 
@@ -34,9 +34,9 @@
 }
 
 .about-content {
+  @extend .body-content;
   position: relative;
   text-align: left;
-  max-width: 850px;
   margin-bottom: 3.6rem;
 
   span a {

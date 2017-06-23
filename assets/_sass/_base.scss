@@ -2,17 +2,19 @@ html {
   font-size: 10px;
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
   html {
     font-size: 9.411764705882353px;
   }
 }
-@media only screen and (max-width:768px) {
+
+@media only screen and (max-width: 768px) {
   html {
     font-size: 10px;
   }
 }
-@media only screen and (max-width:400px) {
+
+@media only screen and (max-width: 400px) {
   html {
     font-size: 9.411764705882353px;
   }
@@ -21,6 +23,7 @@ html {
 html, body {
   height: 100%;
 }
+
 body {
   background: #151515;
   font-family: "lora-regular", serif;
@@ -46,6 +49,10 @@ html {
 
 body {
   margin: 0;
+}
+
+.body-content {
+  max-width: $body-max-width;
 }
 
 article,
@@ -505,7 +512,7 @@ textarea {
  * small screens - (_grid.scss)
  * ---------------------------------------------------------------
  */
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .row .row {
     margin-left: -18px;
     margin-right: -18px;
@@ -521,7 +528,7 @@ textarea {
  * tablets - (_grid.scss)
  * ---------------------------------------------------------------
  */
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .row {
     width: auto;
     padding-left: 30px;
@@ -569,7 +576,7 @@ textarea {
  * large mobile devices - (_grid.scss)
  * ---------------------------------------------------------------
  */
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .row {
     padding-left: 25px;
     padding-right: 25px;
@@ -606,7 +613,7 @@ textarea {
  * small mobile devices - (_grid.scss)
  * ---------------------------------------------------------------
  */
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .row .row {
     padding-left: 0;
     padding-right: 0;
@@ -676,7 +683,7 @@ textarea {
  * small screens - (_grid.scss)
  * ---------------------------------------------------------------
  */
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .block-s-1-6 .bgrid {
     width: 16.66667%;
   }
@@ -715,7 +722,7 @@ textarea {
  * tablets - (_grid.scss)
  * ---------------------------------------------------------------
  */
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .block-tab-1-6 .bgrid {
     width: 16.66667%;
   }
@@ -754,7 +761,7 @@ textarea {
  * large mobile devices - (_grid.scss)
  * ---------------------------------------------------------------
  */
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .block-mob-1-6 .bgrid {
     width: 16.66667%;
   }
@@ -793,7 +800,7 @@ textarea {
  * stack on small mobile devices - (_grid.scss)
  * ---------------------------------------------------------------
  */
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .stack .bgrid {
     width: 100% !important;
     float: none !important;

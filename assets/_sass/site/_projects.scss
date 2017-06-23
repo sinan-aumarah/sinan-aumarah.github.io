@@ -39,7 +39,7 @@
   color: rgba(255, 255, 255, 0.7);
 }
 .projects-content {
-  max-width: 1200px;
+  @extend .body-content;
 }
 .projects-list {
   margin-top: 1.2rem;

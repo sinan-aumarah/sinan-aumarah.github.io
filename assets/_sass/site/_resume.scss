@@ -34,7 +34,7 @@
 
 
 #resume .resume-timeline {
-  max-width: 980px;
+  @extend .body-content;
 }
 #resume .timeline-wrap::before {
   content: "";
