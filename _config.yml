@@ -1,14 +1,14 @@
 name: The site with no name!
 title: Sinan Aumarah
 description: Sinan Aumarah Portfolio
-url: https://sinan-aumarah.github.io/
+url: http://sinanaumarah.com/
 locale: en_US
 email: sinan.wrk@gmail.com
 
 about:
   job_title: Senior Software Consultant
-  website_domain: sinan-aumarah.github.io
-  website_url: https://sinan-aumarah.github.io/
+  website_domain: sinanaumarah.com
+  website_url: http://sinanaumarah.com/
 
 
 # Jekyll
