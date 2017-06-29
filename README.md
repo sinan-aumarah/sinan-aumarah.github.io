@@ -1,7 +1,7 @@
 ## How to assemble and run ?
 run jekyll serve --watch
-
-
+or
+bundle exec jekyll serve --watch
 
 ## Plugins + references:
 
@@ -21,11 +21,7 @@ Images:
 Javascript Files:
 
  - JQuery (http://jquery.com/)
- - Modernizr (http://modernizr.com/)
- - Waypoints (http://imakewebthings.com/jquery-waypoints/)
  - jQuery Placeholder (https://github.com/mathiasbynens/jquery-placeholder)
- - Imagesloaded (http://imagesloaded.desandro.com/)
- - Masonry (http://masonry.desandro.com)
  - pace js (http://github.hubspot.com/pace/)
 
 

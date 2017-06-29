@@ -506,52 +506,6 @@ select {
   color: #252525;
 }
 
-/* IE9 and below */
-.oldie .ss-custom-select::after {
-  display: none;
-}
-
-textarea {
-  min-height: 25rem;
-}
-
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  color: $orange-theme-color;
-  border-bottom: 1px solid $orange-theme-color;
-}
-
-label, legend {
-  font-family: "poppins-bold", sans-serif;
-  font-size: 1.4rem;
-  margin-bottom: .6rem;
-  color: #3b3b3b;
-  display: block;
-}
-
-input[type="checkbox"], input[type="radio"] {
-  display: inline;
-}
-
-label > .label-text {
-  display: inline-block;
-  margin-left: 1rem;
-  font-family: "poppins-regular", sans-serif;
-  line-height: inherit;
-}
-
-label > input[type="checkbox"], label > input[type="radio"] {
-  margin: 0;
-  position: relative;
-  top: .15rem;
-}
 
 /**
  * Style Placeholder Text

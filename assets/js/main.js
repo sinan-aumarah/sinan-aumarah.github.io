@@ -11,7 +11,6 @@
 
     });
 
-
     // Typed info description in the intro section
     document.addEventListener('DOMContentLoaded', function () {
         Typed.new('#typed-info', {
@@ -21,30 +20,6 @@
             loop: true
         });
     });
-
-
-    /*---------------------------------------------------- */
-    /* Owl Carousel
-     ------------------------------------------------------ */
-    $("#owl-slider").owlCarousel({
-        navigation: false,
-        pagination: true,
-        itemsCustom: [
-            [0, 1],
-            [700, 2],
-            [960, 3]
-        ],
-        navigationText: false
-    });
-
-
-    /*----------------------------------------------------- */
-    /* Alert Boxes
-     ------------------------------------------------------- */
-    $('.alert-box').on('click', '.close', function () {
-        $(this).parent().fadeOut(500);
-    });
-
 
     /*-----------------------------------------------------*/
     /* Navigation Menu
@@ -65,7 +40,6 @@
         nav.fadeOut();
     });
 
-
     /*---------------------------------------------------- */
     /* Highlight the current section in the navigation bar
      ------------------------------------------------------ */
@@ -85,6 +59,19 @@
         offset: '25%'
     });
 
+    /*---------------------------------------------------- */
+    /* Projects: Owl Carousel
+     ------------------------------------------------------ */
+    $("#owl-slider").owlCarousel({
+        navigation: false,
+        pagination: true,
+        itemsCustom: [
+            [0, 1],
+            [700, 2],
+            [960, 3]
+        ],
+        navigationText: false
+    });
 
     /*---------------------------------------------------- */
     /* Smooth Scrolling
@@ -105,33 +92,38 @@
     });
 
     /*----------------------------------------------------- */
-    /* Back to top
+    /* Back to top & fixed footer
      ------------------------------------------------------- */
     var pxShow = 300; // height on which the button will show
     var fadeInTime = 400; // how slow/fast you want the button to show
     var fadeOutTime = 400; // how slow/fast you want the button to hide
 
     // Show or hide the sticky footer button
-    var elTop = document.getElementById("intro-social").getBoundingClientRect().top;
+    var pageLoadFromStart = document.getElementById("intro").getBoundingClientRect().top === 0;
+    var footerTop = document.getElementById("intro-social").getBoundingClientRect().top;
     jQuery(window).scroll(function () {
-        if (!( $("#header-search").hasClass('is-visible'))) {
 
-            console.log(elTop);
-            if (jQuery(window).scrollTop() >= elTop) {
-                jQuery("#intro-social").addClass("fix-header");
-            } else {
-                jQuery("#intro-social").removeClass("fix-header");
+        showGoToTopButton();
+        makeFooterFixed();
 
-            }
-
+        function showGoToTopButton() {
             if (jQuery(window).scrollTop() >= pxShow) {
                 jQuery("#go-top").fadeIn(fadeInTime);
             } else {
                 jQuery("#go-top").fadeOut(fadeOutTime);
             }
-
         }
 
+        // Enable fixed footer only if the page has loaded from the first page
+        function makeFooterFixed() {
+            if (pageLoadFromStart) {
+                if (jQuery(window).scrollTop() >= footerTop) {
+                    jQuery("#intro-social").addClass("fix-header");
+                } else {
+                    jQuery("#intro-social").removeClass("fix-header");
+                }
+            }
+        }
     });
 
 })(jQuery);
