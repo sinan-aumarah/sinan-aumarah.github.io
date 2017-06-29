@@ -3,6 +3,12 @@ run jekyll serve --watch
 or
 bundle exec jekyll serve --watch
 
+
+## Performance grade by Pingdom;
+![Pingdom](assets/images/pingdom.png "Pingdom results")
+
+
+
 ## Plugins + references:
 
 Fonts:
