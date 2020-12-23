@@ -34,4 +34,4 @@ gems:
   - github-pages
 
 # Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, .sass-cache, .DS_Store]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, .sass-cache, .DS_Store, vendor]
