@@ -16,14 +16,13 @@
             <div class="timeline-wrap">
                 {% for job in site.data.work-experience %}
                 <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-briefcase"></i>
-                    </div>
-
                     <div class="timeline-header">
                         <h3>{{ job.company }}</h3>
                         <p>{{ job.timeline }}</p>
+                    </div>
+
+                    <div class="timeline-ico">
+                        <i class="fa fa-briefcase"></i>
                     </div>
 
                     <div class="timeline-content">
@@ -46,15 +45,19 @@
             <div class="timeline-wrap">
                 {% for edu in site.data.education %}
                 <div class="timeline-block">
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
+
                     <div class="timeline-header">
                         <h3>{{ edu.school }}</h3>
                         <p>{{ edu.timeline }}</p>
                     </div>
+
+                    <div class="timeline-ico">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+
                     <div class="timeline-content">
                         <h4>{{ edu.degree }}</h4>
+                        <p>{{ edu.description }}</p>
                     </div>
                 </div>
                 {% endfor %}

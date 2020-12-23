@@ -10,6 +10,14 @@
   padding-top: 12rem;
   padding-bottom: 12rem;
 
+  li {
+    line-height: normal;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+
   .timeline-content{
     p {
       line-height: 1.5;
@@ -89,7 +97,6 @@
 }
 #resume .timeline-content h4 {
   position: relative;
-  padding-bottom: 1.8rem;
 }
 #resume .timeline-content h4::after {
   content: "";

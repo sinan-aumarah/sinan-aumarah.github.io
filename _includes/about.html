@@ -38,7 +38,7 @@
                 </li>
                 <li>
                     <strong>Email:</strong>
-                    <span>{{ site.email }}</span>
+                    <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
                 </li>
 
             </ul>
@@ -49,31 +49,12 @@
             <h3>Skills</h3>
 
             <ul class="skill-bars">
+                {% for skill in site.data.skills %}
                 <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Agile</strong>
+                    <div class="progress percent{{ skill.percentage }}"><span>{{ skill.percentage }}%</span></div>
+                    <strong>{{ skill.name }}</strong>
                 </li>
-                <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Java</strong>
-                </li>
-                <li>
-                    <div class="progress percent80"><span>80%</span></div>
-                    <strong>Javascript</strong>
-                </li>
-                <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>Python</strong>
-                </li>
-                <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>PHP</strong>
-                </li>
-                <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>TDD/BDD</strong>
-                </li>
-
+                {% endfor %}
             </ul>
         </div>
     </div>

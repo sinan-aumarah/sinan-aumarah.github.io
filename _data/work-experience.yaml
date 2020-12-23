@@ -1,32 +1,63 @@
+- company: Atlassian
+  title: Senior Software Engineer
+  timeline: August 2020 - Present
+  description: Currently working on P2 plugin feature development across all data center Atlassian products
+
+- company: AMP Capital
+  title: Senior Solutions Engineer
+  timeline: February 2020 - August 2020
+  description: Lead developer at the Cloud Data Platform team to design, develop and set the
+    engineering principals for a cloud data warehouse platform to be used across
+    the organisation. Technologies used; AWS S3, Step Functions (Python), ECS,
+    Snowflake & DBT
+
+- company: MLC
+  title: Lead Developer
+  timeline: August 2018 - February 2020
+  description: Lead developer, architected and helped developing a generic transaction and
+    forms capability system using AWS event-driving architecture. The system
+    went live on July 2019 and is currently been used for a total of 32 unique
+    forms/transactions and the number keeps growing. Since then there have
+    been zero defects and it’s proven to be robust, scalable and generic enough to
+    handle almost all transactions. Technologies used;
+    Lambdas, SQS, SES, NodeJs,
+    React, WebComponents, AEM & Akamai Netstorage.
+
 - company: ThoughtWorks
   title: Senior Consultant - Developer
-  timeline: July 2017 - Present
-  description:
+  timeline: July 2017 - August 2018
+  description: Technical lead on a cross functional team at one of the Australian government
+    departments to design and develop a decoupled CMS system using ReactJS,
+    GraphQL, Drupal, CloudFoundry & AWS. The aim was to reduce cost and
+    content fragmentation across all government agencies. The project was
+    successful with multiple agencies adopting the platform and solution. The
+    system was able to handle 30k requests per second while doing multiple
+    blue/green deployments at the same time.
 
-- company: MLC / NAB
+- company: NAB
   title: Technical Lead
   timeline: April 2016 - July 2017
   description: Technical lead on the transformation program for MLC platform. Currently
-               working closely with two scrum teams consisting of 19 professionals to migrate
-               Digital Online platform from WebSphere 6.1 to Liberty v17 and supporting
-               JDK8. My responsibilities include; Requirement Analysis, Design,
-               Implementation, Testing supervision, Delivery management and
-               Documentation.
+    working closely with two scrum teams consisting of 19 professionals to migrate
+    Digital Online platform from WebSphere 6.1 to Liberty v17 and supporting
+    JDK8. My responsibilities include; Requirement Analysis, Design,
+    Implementation, Testing supervision, Delivery management and
+    Documentation.
 
-- company: MLC / NAB
+- company: NAB
   title: Analyst Programmer
   timeline: November 2012 - April 2016
   description: During this time I was assigned to be the development lead for the two biggest projects
-               of 2015-2016 in an agile environment where I received three NAB recognition awards
-               for the following;
-               <ul>
-               <li> Successfully implemented migration solutions and strategies to move legacy
-               MLC platform into the cloud (AWS) and meeting roll-out goals.
+    of 2015-2016 in an agile environment where I received three NAB recognition awards
+    for the following;
+    <ul>
+    <li> Successfully implemented migration solutions and strategies to move legacy
+    MLC platform into the cloud (AWS) and meeting roll-out goals.
 
-               <li> Implemented data masking and verification systems for MLC platform for a
-               fraction of the price of what consultancy companies offered
-               </li>
-               </ul>
+    <li> Implemented data masking and verification systems for MLC platform for a
+    fraction of the price of what consultancy companies offered
+    </li>
+    </ul>
 
 - company: AgentBox Pty Ltd
   title: Web Developer

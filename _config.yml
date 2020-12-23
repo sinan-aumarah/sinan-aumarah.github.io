@@ -1,4 +1,4 @@
-name: The site with no name!
+name: Sinan Aumarah Portfolio
 title: Sinan Aumarah
 description: Sinan Aumarah Portfolio
 url: https://sinanaumarah.com/
@@ -6,7 +6,7 @@ locale: en_US
 email: sinan.wrk@gmail.com
 
 about:
-  job_title: Senior Software Consultant
+  job_title: Senior Software Engineer
   website_domain: sinanaumarah.com
   website_url: http://sinanaumarah.com/
 
