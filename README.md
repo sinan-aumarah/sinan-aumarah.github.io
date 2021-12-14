@@ -1,3 +1,5 @@
+# [SinanAumarah.com](https://sinanaumarah.com)
+
 ## How to assemble and run ?
 run jekyll serve --watch
 or
