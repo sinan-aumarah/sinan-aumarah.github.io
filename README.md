@@ -1,9 +1,14 @@
 # [SinanAumarah.com](https://sinanaumarah.com)
 
+# Prerequisites
+- Ruby: v3.3+
+- Jekyll: v3.9+
+
 ## How to assemble and run ?
-run jekyll serve --watch
-or
-bundle exec jekyll serve --watch
+run `jekyll serve --watch` or `bundle exec jekyll serve --watch`
+
+For WSL:
+`bundle exec jekyll serve --force_polling`
 
 
 ## Performance grade by Pingdom;

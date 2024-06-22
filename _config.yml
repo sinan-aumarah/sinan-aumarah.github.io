@@ -27,7 +27,7 @@ sass:
 
 
 # Gems
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
